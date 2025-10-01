@@ -1,1 +1,44 @@
+* {
+  font-size: xx-small ;
+  margin: 1px ;
+} /* font-family */
+h1, bdi, p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+h1 {
+  margin: 2px 10px ;
+}
+
+main {
+  margin: 5px ;
+}
+
+div {
+  display: grid ;
+  grid-template-columns: auto auto auto auto ;
+}
+p {
+  user-select :all ;
+  border: 2px double gray ;
+  padding: 2px ;
+  
+}
+
+div p:last-of-type {
+  border-bottom :2px double gray  ;
+  background: #333 ;
+  color: #fff ;
+}
+
+/* Ar */
+.ar , #ar {
+  direction: rtl ;
+}
+/* bdi */
+bdi {
+  font-size: inherit ;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  margin: 0px ;
+  padding: 0px ;
+}
