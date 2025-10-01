@@ -1,1 +1,36 @@
+* {
+  font-size: xx-small ;
+  margin :1px ;
+  padding :0px ;
+}
 
+body {
+  margin-inline: 5px ;
+}
+
+header,bdi,h5,h6,dfn,button,i {
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+header h1 {
+  margin-inline: 10px ;
+}
+
+header h2 {
+  text-align: center ;
+}
+
+header h3 {
+  text-align: center ;
+}
+
+.ar, #ar {
+  direction: rtl ;
+}
+
+bdi {
+  direction: ltr ;
+  font-size: inherit ;
+  margin: 0px ;
+  padding: 0px ;
+}
