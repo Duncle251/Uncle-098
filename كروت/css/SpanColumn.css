@@ -1,0 +1,44 @@
+.SpanColumn {
+  background: #ddd;
+  padding: 2px ;
+}
+
+.SpanColumn span {
+  background: #eee ;
+  column-count: 2 ;
+  display: block ;
+  border: 1px solid gray ;
+  margin: 1px 20px ;
+  padding: 2px  ;
+}
+
+span p {
+  user-select: all ;
+  margin: 0px ;
+}
+
+span b {
+  display: block ;
+  direction: rtl ;
+  font-size :xx-small ;
+  margin: 0px ;
+}
+
+/* bdi */
+bdi {
+  font-size: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* counter => عداد */
+.SpanColumn  {
+  counter-reset: p ;
+}
+
+.SpanColumn p::before {
+  counter-increment: p;
+  content: counter(p) ". ";
+}
+
+

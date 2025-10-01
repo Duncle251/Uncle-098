@@ -1,0 +1,15 @@
+/* Column => أعمدة */
+#Column {
+  column-count: 2 ;
+}
+
+#Column span {
+  display: block ;
+  direction: rtl ;
+  font-size: xx-small ;
+}
+
+#Columns {
+  column-count: 3;
+}
+

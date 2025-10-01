@@ -1,0 +1,9 @@
+/* counter => عداد */
+div {
+  counter-reset:p ;
+}
+
+div p::before {
+  counter-increment: p;
+  content: counter(p) ". ";
+}
