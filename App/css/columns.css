@@ -1,0 +1,13 @@
+/* Column => أعمدة */
+#Column {
+  column-count: 2 ;
+}
+
+#Column span {
+  display: block ;
+  direction: rtl ;
+  font-size: inherit ;
+  margin: 0px ;
+  padding: 0px ;
+}
+

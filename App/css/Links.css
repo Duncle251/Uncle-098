@@ -1,0 +1,26 @@
+a {
+  color: #000;
+  border: 2px double gray;
+  text-decoration: none;
+}
+
+/* visit-btn = زر الزيارة  */
+.visit-btn,a {
+  display: block;
+  width: 100%;
+  padding: 1px;
+  background-color: #6e8efb;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  columns: 2 ;
+}
+
+a b {
+  display: block ;
+}

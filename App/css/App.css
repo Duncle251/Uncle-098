@@ -1,0 +1,69 @@
+
+#Content {
+  display: grid ;
+  grid-template-columns :1fr 1fr 
+}
+
+
+#App {
+  text-align: center ;
+  border :1px solid black ;
+  border-radius: 5px ;
+}
+
+.one h4, .two , .three {
+  columns: 2 ;
+  font-size: x-small ;
+  border-bottom: 1px solid gray ;
+  text-decoration :underline double red ;
+  
+}
+
+dfn {
+  display :block ;
+  font-size: xx-small ;
+}
+
+h5 {
+  user-select: all ;
+}
+
+h5::after {
+  content: " .apk";
+}
+
+#MB i::after {
+  content: " .MB";
+}
+
+#App img {
+  width: 40% ;
+}
+
+#App div {
+  display: grid ;
+  grid-template-columns :1fr 1fr ;
+}
+
+#App div p {
+  border-bottom: 1px solid gray ;
+}
+ 
+
+b {
+  direction: rtl ;
+  font-size: xx-small ;
+  margin-left: 5px 
+}
+
+strong {
+  display: block ;
+  direction: rtl ;
+  
+}
+
+strong em {
+  display: block ;
+  border-bottom: 1px solid silver ;
+  
+}
